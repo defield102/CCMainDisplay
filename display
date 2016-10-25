@@ -7,7 +7,24 @@ function drawNavBar()
 	local TurbineViewButton = program:GetObject('TurbineViewButton')
 	TurbineViewButton.X = MainButton.Width + 2
 	TurbineViewButton.OnClick = function( self, event, side, x, y )
-		if self:ToggleMenu('Turbine', x, y) then
+		if self:ToggleMenu({
+							  Type="Menu",
+							  Children={
+							        {
+							          Name="ViewModeMenuItem",
+							          Type="Button",
+							          Text="List View"
+							        },
+							        {
+							          ["Type"]="Separator"
+							        },
+							        {
+							          Name="HiddenFilesMenuItem",
+							          Type="Button",
+							          Text="Show Hidden"
+							        }
+							  },
+							}, x, y) then
 			turbineView()
 		end
 	end
