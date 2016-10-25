@@ -9,7 +9,7 @@
           BackgroundColor='lightGray'
         },
         {
-          X=15,
+          X=13,
           Y=1,
           Name="TurbineViewButton",
           Type="Button",
@@ -36,7 +36,7 @@
         },
         {
           X='10%',
-          Y='5%,6'
+          Y='5%,6',5
           Width='90%',
           Height='5%',
           Align="Center",
