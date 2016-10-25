@@ -7,8 +7,9 @@ function drawNavBar()
 	local TurbineViewButton = program:GetObject('TurbineViewButton')
 	TurbineViewButton.X = MainButton.Width + 2
 	TurbineViewButton.OnClick = function( self, event, side, x, y )
-		program:LoadView('Turbine')
-		turbineView()
+		if self:ToggleMenu('Turbine', x, y) then
+			turbineView()
+		end
 	end
 	MainButton.OnClick = function( self, event, side, x, y )
 		program:LoadView('main')
