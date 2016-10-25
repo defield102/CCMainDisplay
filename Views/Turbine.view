@@ -38,9 +38,9 @@
           X='10%',
           Y='5%,6',
           Width='90%',
-          Height='5%',
+          Height='5%,4',
           Align="Center",
-          Name="PowerStockage",
+          Name="SteamStockage",
           Type="ProgressBar"
         }
   },
