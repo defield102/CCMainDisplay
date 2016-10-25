@@ -1,0 +1,28 @@
+{
+  Children={
+        {
+          X=1,
+          Y=1,
+          Name="MainButton",
+          Type="Button",
+          Text="Acceuil",
+          BackgroundColor='lightGray'
+        },
+        {
+          X='25',
+          Y=1,
+          Name="TurbineViewButton",
+          Type="Button",
+          Text="Turbine",
+          BackgroundColor='lightGray'
+        },
+        {
+          X=2,
+          Y=4,
+          Name="MainLabel",
+          Type="Label",
+          Text="Turbine: "
+        }
+  },
+  BackgroundColour='black'
+}

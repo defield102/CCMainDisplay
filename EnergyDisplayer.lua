@@ -1,0 +1,27 @@
+local bedrockPath='/' if OneOS then OneOS.LoadAPI('/System/API/Bedrock.lua', false)elseif fs.exists(bedrockPath..'/Bedrock')then os.loadAPI(bedrockPath..'/Bedrock')else if http then print('Downloading Bedrock...')local h=http.get('http://pastebin.com/raw.php?i=0MgKNqpN')if h then local f=fs.open(bedrockPath..'/Bedrock','w')f.write(h.readAll())f.close()h.close()os.loadAPI(bedrockPath..'/Bedrock')else error('Failed to download Bedrock. Is your internet working?') end else error('This program needs to download Bedrock to work. Please enable HTTP.') end end if Bedrock then Bedrock.BasePath = bedrockPath Bedrock.ProgramPath = shell.getRunningProgram() end
+
+local program = Bedrock:Initialise()
+
+function drawNavBar()
+	local MainButton = program:GetObject('MainButton')
+	local TurbineViewButton = program:GetObject('TurbineViewButton')
+	TurbineViewButton.X = MainButton.Width + 2
+	TurbineViewButton.OnClick = function( self, event, side, x, y )
+		program:LoadView('Turbine')
+		turbineView()
+	end
+	MainButton.OnClick = function( self, event, side, x, y )
+		program:LoadView('main')
+		mainView()
+	end
+end
+
+function mainView()
+	drawNavBar()
+end
+
+function turbineView()
+	drawNavBar()
+end
+program:LoadView("main")
+program:Run(function() mainView() end)
