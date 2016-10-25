@@ -7,6 +7,31 @@
           Type="Button",
           Text="Acceuil",
           BackgroundColor='lightGray'
+        },
+        {
+          X=15,
+          Y=1,
+          Name="TurbineViewButton",
+          Type="Button",
+          Text="Turbine",
+          BackgroundColor='lightGray'
+        },
+        {
+          X=2,
+          Y=5,
+          Width='100%',
+          Align="Center",
+          Name="MainLabel",
+          Type="Label",
+          Text="Turbine"
+        },
+        {
+          X='10%',
+          Y=10,
+          Width='80%',
+          Align="Center",
+          Name="MainLabel",
+          Type="Progressbar"
         }
   },
   BackgroundColour='black'

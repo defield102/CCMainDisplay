@@ -9,21 +9,12 @@
           BackgroundColor='lightGray'
         },
         {
-          X=25,
+          X=15,
           Y=1,
           Name="TurbineViewButton",
           Type="Button",
           Text="Turbine",
           BackgroundColor='lightGray'
-        },
-        {
-          X='10%',
-          Y=6,
-          Width='100%',
-          Align="Center",
-          Name="HelloLabel",
-          Type="Label",
-          Text="Hello! I'm a Label!"
         }
   },
   BackgroundColour='black'
