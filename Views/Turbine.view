@@ -17,28 +17,39 @@
           BackgroundColor='lightGray'
         },
         {
-          X=2,
-          Y=5,
+          X=0,
+          Y=3,
           Width='100%',
           Align="Center",
           Name="MainLabel",
           Type="Label",
-          Text="Turbine"
+          Text="Turbine",
+          TextColour='white'
         },
         {
           X='5%',
-          Y=6,
+          Y=4,
           Width='90%',
-          Height='5%',
+          Height=4,
           Align="Center",
           Name="PowerStockage",
           Type="ProgressBar"
         },
         {
+          X=0,
+          Y=5,
+          Width='100%',
+          Align="Center",
+          Name="SteamLabel",
+          Type="Label",
+          Text="Turbine",
+          TextColour='white'
+        },
+        {
           X='5%',
-          Y='5%,10',
+          Y=11,
           Width='90%',
-          Height='5%,4',
+          Height=4,
           Align="Center",
           Name="SteamStockage",
           Type="ProgressBar"
