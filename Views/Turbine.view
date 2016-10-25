@@ -28,10 +28,19 @@
         {
           X='10%',
           Y=6,
-          Width='80%',
-          Height=6,
+          Width='90%',
+          Height='5%',
           Align="Center",
-          Name="MainLabel",
+          Name="PowerStockage",
+          Type="ProgressBar"
+        },
+        {
+          X='10%',
+          Y='5%,6'
+          Width='90%',
+          Height='5%',
+          Align="Center",
+          Name="PowerStockage",
           Type="ProgressBar"
         }
   },
