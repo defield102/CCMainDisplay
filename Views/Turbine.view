@@ -7,22 +7,6 @@
           Type="Button",
           Text="Acceuil",
           BackgroundColor='lightGray'
-        },
-        {
-          X=25,
-          Y=1,
-          Name="TurbineViewButton",
-          Type="Button",
-          Text="Turbine",
-          BackgroundColor='lightGray'
-        },
-        {
-          X=2,
-          Y=4,
-          Name="LabelTestOfDoom",
-          Type="Label",
-          Text="Turbine:",
-          TextColor='white'
         }
   },
   BackgroundColour='black'
