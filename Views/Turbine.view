@@ -27,8 +27,9 @@
         },
         {
           X='10%',
-          Y=10,
+          Y=6,
           Width='80%',
+          Height=6,
           Align="Center",
           Name="MainLabel",
           Type="ProgressBar"
