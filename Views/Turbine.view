@@ -22,7 +22,8 @@
           Name="MainLabel",
           Type="Label",
           Text="Turbine: ",
-          TextColor='white'
+          TextColor='white',
+          BackgroundColor='lightBlue'
         }
   },
   BackgroundColour='black'
