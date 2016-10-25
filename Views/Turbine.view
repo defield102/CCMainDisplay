@@ -9,7 +9,7 @@
           BackgroundColor='lightGray'
         },
         {
-          X='25',
+          X=25,
           Y=1,
           Name="TurbineViewButton",
           Type="Button",
