@@ -19,11 +19,10 @@
         {
           X=2,
           Y=4,
-          Name="MainLabel",
+          Name="LabelTestOfDoom",
           Type="Label",
-          Text="Turbine: ",
-          TextColor='white',
-          BackgroundColor='lightBlue'
+          Text="Turbine:",
+          TextColor='white'
         }
   },
   BackgroundColour='black'
