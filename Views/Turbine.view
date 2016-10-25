@@ -21,7 +21,8 @@
           Y=4,
           Name="MainLabel",
           Type="Label",
-          Text="Turbine: "
+          Text="Turbine: ",
+          TextColor='white'
         }
   },
   BackgroundColour='black'
